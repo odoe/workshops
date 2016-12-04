@@ -1283,6 +1283,8 @@ view.whenLayerView(fLayer)
 
 # Exercise 4
 
+[http://jsbin.com/perovey/edit?html,css,js,output]: #
+
 ---
 
 <!-- .slide: class="section" -->
