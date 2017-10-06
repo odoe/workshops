@@ -1,0 +1,21 @@
+@import url("https://js.arcgis.com/4.2/esri/css/main.css");
+
+html,
+body,
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#resultsDiv {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+  background-color: #fff333;
+  color: #eee;
+  min-height: 25px;
+  min-width: 50px;
+}
