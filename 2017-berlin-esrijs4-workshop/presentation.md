@@ -786,6 +786,7 @@ graphicsLayer.add(graphic);
 - Versatile and widely used in ArcGIS Platform
 - Supports renderers
 - Can be queried
+- WebGL (beta)
 
 ---
 
@@ -865,11 +866,28 @@ featureLayer.source.add(target);
 
 ---
 
-## FeatureLayer - Current Limitations
+## FeatureLayer - Improved Performance
 
-- No editing support
-- Drawing pipeline not optimized (no modes)
-- No draw tools
+- WebGL and Optimized Fetching of Data
+
+---
+
+## FeatureLayer - Optimized Fetching of Data
+
+![webgl tiles](./images/featurelayer-webgl-tiles.png)
+
+---
+
+## FeatureLayer - WebGL
+
+- Combined with WebGL, _big boost in performance_
+- Display millions of features
+
+---
+
+## FeatureLayer
+
+- DEMO
 
 ---
 
