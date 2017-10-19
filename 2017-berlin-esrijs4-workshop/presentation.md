@@ -86,6 +86,12 @@ Berlin, 2017
 
 ---
 
+# Labs
+
+- [Esri Dev Labs](https://developers.arcgis.com/labs/develop/index.html#javascript)
+
+---
+
 <!-- .slide: class="section" -->
 
 # Exercise 1
