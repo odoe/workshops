@@ -1272,7 +1272,7 @@ view.whenLayerView(fLayer)
 
 # Exercise 4
 
-[http://jsbin.com/perovey/edit?html,css,js,output]: #
+[http://jsbin.com/perovey/14/edit?js,output]: #
 
 ---
 
@@ -1316,6 +1316,41 @@ view.whenLayerView(fLayer)
 - Views' source code available in the [SDK](https://developers.arcgis.com/javascript/latest/api-reference/esri-widgets-Zoom.html)
 - View's can be rewritten in [any framework](demos/widgets/framework/index.html)
 - ViewModels can be combined to create [Frankenwidgets](demos/widgets/frankenwidget/index.html)
+
+---
+
+## Drawing and Editing
+
+- Not simply porting 3.x editing tools
+- Integrate GeometryEngine
+- Create brand new user experience
+
+---
+
+## Sketch ViewModel
+
+<iframe height='600' scrolling='no' title='Sketch' src='//codepen.io/odoe/embed/preview/boJVZx/?height=600&theme-id=31222&default-tab=js,result&embed-version=2&editable=true' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/odoe/pen/boJVZx/'>Sketch</a> by Rene Rubalcava (<a href='https://codepen.io/odoe'>@odoe</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+* [demo](https://codepen.io/odoe/pen/boJVZx?editors=0010)
+
+---
+
+## Self-Intersecting Lines
+
+<iframe height='600' scrolling='no' title='Self-Intersecting Line' src='//codepen.io/odoe/embed/preview/GMLpaQ/?height=600&theme-id=31222&default-tab=js,result&embed-version=2&editable=true' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/odoe/pen/GMLpaQ/'>Self-Intersecting Line</a> by Rene Rubalcava (<a href='https://codepen.io/odoe'>@odoe</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+* [demo](https://codepen.io/odoe/pen/GMLpaQ?editors=0010)
+
+---
+
+## Measure While Drawing
+
+<iframe height='600' scrolling='no' title='Measure While Drawing' src='//codepen.io/odoe/embed/preview/NamGZE/?height=600&theme-id=31222&default-tab=js,result&embed-version=2&editable=true' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/odoe/pen/NamGZE/'>Measure While Drawing</a> by Rene Rubalcava (<a href='https://codepen.io/odoe'>@odoe</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+* [demo](https://codepen.io/odoe/pen/NamGZE?editors=0010)
 
 ---
 
