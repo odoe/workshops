@@ -1287,7 +1287,9 @@ view.whenLayerView(fLayer)
 
 <!-- .slide: class="section" -->
 
-# [Query LayerView](http://jsbin.com/perovey/14/edit?js,output) - TODO
+## [Query LayerView - Exercise](https://codepen.io/odoe/pen/KXYrQx?editors=0010)
+
+## [Query LayerView - Solution](https://codepen.io/odoe/pen/vJdVpQ?editors=0010)
 
 ---
 
