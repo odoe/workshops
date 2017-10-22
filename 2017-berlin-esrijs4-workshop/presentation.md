@@ -94,7 +94,7 @@ Berlin, 2017
 
 <!-- .slide: class="section" -->
 
-# Exercise 1
+[Create a 2D Map with a Layer](https://developers.arcgis.com/labs/develop/javascript/create-a-2d-map-with-a-layer/)
 
 ---
 
@@ -282,6 +282,12 @@ const pointGraphic = new Graphic({
 
 ---
 
+# Pop Quiz!
+
+## [Create Graphics](https://developers.arcgis.com/labs/develop/javascript/create-graphics/)
+
+---
+
 ## Accessor - Details
 
 - Covered in more detail in a later section
@@ -408,6 +414,13 @@ view.then(() => {
 ```
 
 ---
+<!-- .slide: class="section" -->
+
+# Pop Quiz!
+
+## [Query a FeatureLayer](https://developers.arcgis.com/labs/develop/javascript/query-a-feature-layer/)
+
+---
 
 ## Loadables
 
@@ -460,7 +473,9 @@ In a single page application, get a feature from a FeatureLayer from a WebMap wi
 
 <!-- .slide: class="section" -->
 
-# Exercise 2
+# [Create a 2D Map](https://developers.arcgis.com/labs/develop/javascript/create-a-2d-map-with-a-layer/)
+ - Same exercise as before
+ - Watch for view center to change
 
 ---
 
@@ -714,7 +729,9 @@ const view = new SceneView({
 
 ---
 
-# Exercise 3
+# [Display a Webmap](https://developers.arcgis.com/labs/develop/javascript/display-a-web-map/)
+ - also watch for the view center to change
+ - have fun watching for other properties to change
 
 ---
 
@@ -1270,9 +1287,7 @@ view.whenLayerView(fLayer)
 
 <!-- .slide: class="section" -->
 
-# Exercise 4
-
-[http://jsbin.com/perovey/14/edit?js,output]: #
+# [Query LayerView](http://jsbin.com/perovey/14/edit?js,output) - TODO
 
 ---
 
@@ -1558,6 +1573,10 @@ view.popup.viewModel.on("trigger-action", function(event) {
   }
 });
 ```
+---
+<!-- .slide: class="section" -->
+
+# [Configure a Popup](https://developers.arcgis.com/labs/develop/javascript/configure-a-popup/)
 
 ---
 
@@ -1617,9 +1636,25 @@ map.basemap = toner;
 
 ---
 
+- `basemap` is loaded from a `WebMap`
+
+```js
+const map = new EsriMap({
+  basemap: {
+    portalItem: {
+      id: "8d91bd39e873417ea21673e0fee87604"
+    }
+  }
+});
+```
+
+---
+
 <!-- .slide: class="section" -->
 
-# Exercise 5
+# [Use a custom basemp - Exercise](https://codepen.io/odoe/pen/KXYqOY?editors=0010)
+
+# [Use a custom basemap - Solution](https://codepen.io/odoe/pen/yzqqGj?editors=0010)
 
 ---
 
@@ -1731,6 +1766,12 @@ sceneView.environment = {
 ```
 
 - [demo](https://developers.arcgis.com/javascript/latest/sample-code/sandbox/sandbox.html?sample=sceneview-stars)
+
+---
+
+<!-- .slide: class="section" -->
+
+# [Create a 3D Scene with a Layer](https://developers.arcgis.com/labs/develop/javascript/create-a-3d-scene-with-a-layer/)
 
 ---
 
@@ -2206,7 +2247,7 @@ const sizeVisconst = {
 
 <!-- .slide: class="section" -->
 
-# Exercise 6
+# [Style a FeatureLayer](https://developers.arcgis.com/labs/develop/javascript/style-a-feature-layer/)
 
 ---
 
@@ -2930,7 +2971,7 @@ class Subclass extends declared(Accessor) {
 
 <!-- .slide: class="section" -->
 
-# Exercise 7
+# [Review an app](https://github.com/odoe/esrijs4-ts-starter-kit)
 
 ---
 
@@ -3112,6 +3153,12 @@ class HelloWorld extends declared(Widget) {
 }
 
 ```
+
+---
+
+<!-- .slide: class="section" -->
+
+# [Review custom widgets](https://github.com/odoe/odoenet-esrijs)
 
 ---
 
