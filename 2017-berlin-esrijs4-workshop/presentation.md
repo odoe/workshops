@@ -414,6 +414,7 @@ view.then(() => {
 ```
 
 ---
+
 <!-- .slide: class="section" -->
 
 # Pop Quiz!
@@ -1576,6 +1577,7 @@ view.popup.viewModel.on("trigger-action", function(event) {
 });
 ```
 ---
+
 <!-- .slide: class="section" -->
 
 # [Configure a Popup](https://developers.arcgis.com/labs/develop/javascript/configure-a-popup/)
