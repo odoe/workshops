@@ -4,6 +4,8 @@
 
 Berlin, 2018
 
+---
+
 <!-- .slide: class="sponsor" -->
 
 ---
@@ -33,6 +35,14 @@ How familiar are you with:
 - Data
 - Design
 - Develop
+
+---
+
+# Sign up for a free developer account
+
+
+- developers.arcgis.com
+- Voucher code: JAVASCRIPTAPIDS2018
 
 ---
 
