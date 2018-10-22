@@ -1223,7 +1223,7 @@ const tiledLayer = new WebTileLayer({
 
 ---
 
-<iframe height='=600' scrolling='no' title='WebTileLayer' src='//codepen.io/odoe/embed/preview/boXKjP/?height=600&theme-id=31222&default-tab=js,result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/odoe/pen/boXKjP/'>WebTileLayer</a> by Rene Rubalcava (<a href='https://codepen.io/odoe'>@odoe</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='600' scrolling='no' title='WebTileLayer' src='//codepen.io/odoe/embed/preview/boXKjP/?height=600&theme-id=31222&default-tab=js,result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/odoe/pen/boXKjP/'>WebTileLayer</a> by Rene Rubalcava (<a href='https://codepen.io/odoe'>@odoe</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 ---
@@ -1353,8 +1353,7 @@ view.whenLayerView(fLayer)
 - Logic of the widget separated from the representation
 - View implementations made in dijit/Accessor
 - Views' source code available in the [SDK](https://developers.arcgis.com/javascript/latest/api-reference/esri-widgets-Zoom.html)
-- View's can be rewritten in [any framework](demos/widgets/framework/index.html)
-- ViewModels can be combined to create [Frankenwidgets](demos/widgets/frankenwidget/index.html)
+- View's can be rewritten in any framework
 
 ---
 
